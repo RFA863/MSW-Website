@@ -24,7 +24,7 @@ const latoLight = localFont({
 const inter = localFont({
   src: "./fonts/Inter-VariableFont_opsz,wght.ttf",
   variable: "--font-inter",
-  weight: "300",
+  weight: "200, 300, 400",
 })
 
 export const metadata = {

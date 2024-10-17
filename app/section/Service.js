@@ -7,7 +7,7 @@ import ServiceImg3 from "../../public/image/Service-img3.png"
 
 export default function Service() {
     return (
-        <div className=" h-screen tracking-[.6px] text-white">
+        <div id="service" className=" h-screen tracking-[.6px] text-white">
             <div className="relative h-full">
                 <Image src={BgService} alt="Background" className="absolute -z-[1] object-cover w-screen h-screen" />
 

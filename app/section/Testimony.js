@@ -1,7 +1,7 @@
 
 export default function Testimony() {
     return (
-        <div className="bg-[#18181B] h-screen w-screen tracking-[.6px]">
+        <div id="client" className="bg-[#18181B] h-screen w-screen tracking-[.6px]">
 
             <div className="flex justify-center items-center text-center h-full w-full">
                 <div>

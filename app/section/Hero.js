@@ -4,7 +4,7 @@ import BgHero from '../../public/background/Bg_hero.png';
 
 export default function Hero() {
     return (
-        <div className="w-screen h-screen">
+        <div id="hero" className="w-screen h-screen">
             <div className="relative h-full">
                 <Image src={BgHero} alt="background" className="absolute -z-[1] object-cover w-screen h-screen" />
 

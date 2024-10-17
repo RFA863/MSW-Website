@@ -25,6 +25,10 @@ body {
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .font-tenor-sans {
   font-family: var(--font-tenor-sans), sans-serif;
 }

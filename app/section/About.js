@@ -4,7 +4,7 @@ import AboutImg from "../../public/image/About-img.png";
 
 export default function About() {
     return (
-        <div className="mx-24 h-screen">
+        <div id="about" className="mx-24 h-screen mt-2" >
             <div className="flex justify-between items-center gap-x-12 h-full">
 
                 <div className="text-black tracking-[.6px]">

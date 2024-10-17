@@ -4,7 +4,7 @@ import FeatureEventImg from "../../public/image/Featured-event-img.png";
 
 export default function FeaturedEvent() {
     return (
-        <div className="mx-24 tracking-[.6px] min-h-screen mb-40">
+        <div id="gallery" className="mx-24 tracking-[.6px] min-h-screen mb-40">
             <div className="flex justify-center text-center font-lato-light text-[40px] text-black my-[120px]">
                 Featured Events
             </div>

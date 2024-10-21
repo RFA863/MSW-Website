@@ -1,8 +1,8 @@
 
 export default function Contact() {
     return (
-        <div id="contact" className="mx-24 h-screen tracking-[.6px] text-[#27272A] flex justify-between items-center">
-            <div className="mx-10 basis-1/2">
+        <div id="contact" className="mx-6 xl:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-between items-center flex-col xl:flex-row my-16 xl:my-0">
+            <div className="mx-0 xl:mx-10 basis-1/2">
                 <p className="font-inter text-base mb-8">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nam quis odio venenatis, tristique nisi eget, lobortis lectus.
@@ -17,7 +17,7 @@ export default function Contact() {
                 </p>
             </div>
 
-            <div className="basis-1/2">
+            <div className="basis-1/2 mt-12">
                 <form>
                     <p className="font-lato-bold text-2xl">Name <span className="text-base">(required)</span></p>
 
@@ -41,7 +41,9 @@ export default function Contact() {
                         <p className="font-lato-bold text-2xl">Message <span className="text-base">(required)</span></p>
                         <textarea rows="10" cols="30" className="border border-[#71717A] rounded p-2 text-base w-full"></textarea>
                     </div>
-                    <button className="bg-[#27272A] px-6 py-3 text-[#FAFAFA] font-lato-regular text-base">Send</button>
+                    <div className="flex justify-end">
+                        <button className="bg-[#27272A] px-6 py-3 text-[#FAFAFA] font-lato-regular text-base">Send</button>
+                    </div>
                 </form>
             </div>
         </div>

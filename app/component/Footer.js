@@ -6,9 +6,9 @@ export default function Footer() {
     return (
         <div className="bg-[#18181B] text-[#F4F4F5] py-24">
 
-            <div className="mx-20 flex ">
+            <div className="mx-10 xl:mx-20 flex flex-col items-center xl:flex-row ">
                 <div className="basis-1/2 ">
-                    <Logo className="text-[#F472B6] mx-auto h-20" />
+                    <Logo className="text-[#F472B6] mx-auto h-20 mb-14" />
                 </div>
                 <div className="basis-1/2 flex gap-x-6 font-inter font-extralight text-xs">
                     <div className="basis-1/2 ">

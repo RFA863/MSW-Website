@@ -1,6 +1,6 @@
 export default function Map() {
     return (
-        <div id="map" className="mx-24 h-screen tracking-[.6px] text-[#27272A] flex justify-between items-center">
+        <div id="map" className="mx-6 xl:mx-24 h-screen tracking-[.6px] text-[#27272A] flex justify-between items-center flex-wrap text-center xl:text-left">
 
             <div>
                 <p className="font-lato-regular text-[32px]">MSW Ohio</p>

@@ -5,13 +5,13 @@ import FeatureEventImg from "../../public/image/Featured-event-img.png";
 export default function FeaturedEvent() {
     return (
         <div id="gallery" className="mx-12 xl:mx-24 tracking-[.6px] min-h-screen my-36">
-            <div className="flex justify-center text-center font-lato-light text-4xl md:text-[40px] text-black my-16 xl:my-[120px]">
+            <div className="flex justify-center text-center font-lato-light text-4xl md:text-[40px] text-black my-8 xl:my-[120px]">
                 Featured Events
             </div>
 
             <div className="text-center xl:text-left">
 
-                <div className="flex flex-col md:flex-row-reverse  items-center justify-between gap-x-8 ">
+                <div className="flex flex-col md:flex-row-reverse  items-center justify-between gap-x-8 md:my-16">
 
                     <div className="basis-1/2">
                         <Image src={FeatureEventImg} alt="featured event image" className=" w-[380px] md:w-[625px] md:h-[480px] object-scale-down md:object-cover" />
@@ -24,7 +24,7 @@ export default function FeaturedEvent() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-center justify-between gap-x-8">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-x-8 md:my-16 ">
 
                     <div className="basis-1/2">
                         <Image src={FeatureEventImg} alt="featured event image" className=" w-[380px] md:w-[625px] md:h-[480px] object-scale-down md:object-cover" />
@@ -37,7 +37,7 @@ export default function FeaturedEvent() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row-reverse  items-center justify-between gap-x-8 ">
+                <div className="flex flex-col md:flex-row-reverse  items-center justify-between gap-x-8 md:my-16">
 
                     <div className="basis-1/2">
                         <Image src={FeatureEventImg} alt="featured event image" className=" w-[380px] md:w-[625px] md:h-[480px] object-scale-down md:object-cover" />

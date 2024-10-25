@@ -1,6 +1,6 @@
 export default function Map() {
     return (
-        <div id="map" className="mx-12 lg:mx-24 h-screen tracking-[.6px] text-[#27272A] flex flex-col lg:flex-row justify-center lg:justify-between  items-center gap-y-12 lg:gap-y-0 text-center lg:text-left py-8 lg:py-0">
+        <div id="map" className="mx-12 md:mx-24 h-screen tracking-[.6px] text-[#27272A] flex flex-col lg:flex-row justify-center lg:justify-between  items-center gap-y-12 lg:gap-y-0 text-center lg:text-left py-8 lg:py-0">
 
             <div >
                 <p className="font-lato-regular text-[32px]">MSW Ohio</p>

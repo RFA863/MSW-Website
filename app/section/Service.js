@@ -29,7 +29,7 @@ export default function Service() {
             <div className="relative h-screen">
                 <Image src={BgService} alt="Background" className="absolute -z-[1] object-cover w-screen h-screen" />
 
-                <div className="flex justify-center items-center text-center h-full mx-10 xl:mx-44">
+                <div className="flex justify-center items-center text-center h-full mx-12 md:mx-44">
 
                     <Carousel theme={customTheme}>
                         <div >

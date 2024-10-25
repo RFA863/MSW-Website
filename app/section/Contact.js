@@ -1,7 +1,7 @@
 
 export default function Contact() {
     return (
-        <div id="contact" className="mx-12 xl:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-center xl:justify-between items-center flex-col xl:flex-row my-16 xl:my-0">
+        <div id="contact" className="mx-12 md:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-center xl:justify-between items-center flex-col xl:flex-row my-16 xl:my-0">
             <div className="mx-0 xl:mx-10 basis-1/2">
                 <p className="font-inter text-base  text-justify ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

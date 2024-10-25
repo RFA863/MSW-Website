@@ -34,13 +34,13 @@ export default function Service() {
                     <Carousel theme={customTheme}>
                         <div >
                             <p className="font-lato-light text-base text-[#FAFAFA] mb-1 xl:mb-3">OUR SERVICES</p>
-                            <p className="font-lato-regular text-5xl mb-6 xl:mb-14">Wedding Organizer</p>
+                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Wedding Organizer</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg1} alt="Service image" />
-                                <Image src={ServiceImg2} alt="Service image" className="hidden xl:block" />
-                                <Image src={ServiceImg3} alt="Service image" className="hidden xl:block" />
+                                <Image src={ServiceImg1} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg2} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg3} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
                             </div>
-                            <p className="font-inter text-sm mt-6 xl:mt-16">
+                            <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Donec vulputate accumsan odio quis congue. Cras sed urna nec
                                 velit posuere laoreet quis vitae magna. Donec aliquet tristique
@@ -52,13 +52,13 @@ export default function Service() {
                         <div>
                             <p className="font-lato-light text-base text-[#FAFAFA] mb-1 xl:mb-3">OUR SERVICES</p>
 
-                            <p className="font-lato-regular text-5xl mb-6 xl:mb-14">Customized Decoration</p>
+                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Customized Decoration</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg4} alt="Service image" />
-                                <Image src={ServiceImg5} alt="Service image" className="hidden xl:block" />
-                                <Image src={ServiceImg6} alt="Service image" className="hidden xl:block" />
+                                <Image src={ServiceImg4} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg5} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg6} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
                             </div>
-                            <p className="font-inter text-sm mt-6 xl:mt-16">
+                            <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Donec vulputate accumsan odio quis congue. Cras sed urna nec
                                 velit posuere laoreet quis vitae magna. Donec aliquet tristique
@@ -70,13 +70,13 @@ export default function Service() {
                         <div>
                             <p className="font-lato-light text-base text-[#FAFAFA]mb-1 xl:mb-3">OUR SERVICES</p>
 
-                            <p className="font-lato-regular text-5xl mb-6 xl:mb-14">Private Wedding</p>
+                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Private Wedding</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg7} alt="Service image" />
-                                <Image src={ServiceImg8} alt="Service image" className="hidden xl:block" />
-                                <Image src={ServiceImg9} alt="Service image" className="hidden xl:block" />
+                                <Image src={ServiceImg7} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg8} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg9} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
                             </div>
-                            <p className="font-inter text-sm mt-6 xl:mt-16">
+                            <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Donec vulputate accumsan odio quis congue. Cras sed urna nec
                                 velit posuere laoreet quis vitae magna. Donec aliquet tristique
@@ -90,63 +90,6 @@ export default function Service() {
                 </div>
 
 
-
-                {/* <div className="flex justify-center items-center text-center h-full mx-44">
-                    <div>
-                        <p className="font-lato-light text-base text-[#FAFAFA] mb-3">OUR SERVICES</p>
-                        <Carousel>
-                           
-                            <div>
-                                <p className="font-lato-regular text-5xl mb-14">Wedding Organizer</p>
-                                <div className="flex justify-center gap-x-4">
-                                    <Image src={ServiceImg1} alt="Service image" />
-                                    <Image src={ServiceImg2} alt="Service image" />
-                                    <Image src={ServiceImg3} alt="Service image" />
-                                </div>
-                                <p className="font-inter text-sm mt-16">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                    velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                    turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                    nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
-                                </p>
-                            </div>
-
-                            <div>
-                                <p className="font-lato-regular text-5xl mb-14">Customized Decoration</p>
-                                <div className="flex justify-center gap-x-4">
-                                    <Image src={ServiceImg4} alt="Service image" />
-                                    <Image src={ServiceImg5} alt="Service image" />
-                                    <Image src={ServiceImg6} alt="Service image" />
-                                </div>
-                                <p className="font-inter text-sm mt-16">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                    velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                    turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                    nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
-                                </p>
-                            </div>
-
-                            <div>
-                                <p className="font-lato-regular text-5xl mb-14">Private Wedding</p>
-                                <div className="flex justify-center gap-x-4">
-                                    <Image src={ServiceImg7} alt="Service image" />
-                                    <Image src={ServiceImg8} alt="Service image" />
-                                    <Image src={ServiceImg9} alt="Service image" />
-                                </div>
-                                <p className="font-inter text-sm mt-16">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                    velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                    turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                    nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
-                                </p>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
-                 */}
             </div>
         </div>
     )

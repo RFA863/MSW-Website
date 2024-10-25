@@ -1,5 +1,5 @@
+import Link from 'next/link'
 import { FaYoutube, FaFacebookF, FaInstagram } from "react-icons/fa";
-
 import Logo from "../../public/logo/Logo.svg"
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
 
             <div className="mx-10 xl:mx-20 flex flex-col items-center xl:flex-row ">
                 <div className="basis-1/2 ">
-                    <Logo className="text-[#F472B6] mx-auto h-20 mb-14" />
+                    <Logo className="text-[#F472B6] mx-auto h-16 md:h-20 mb-14" />
                 </div>
                 <div className="basis-1/2 flex gap-x-6 font-inter font-extralight text-xs">
                     <div className="basis-1/2 ">
@@ -29,8 +29,12 @@ export default function Footer() {
                     </div>
                     <div className="basis-1/2">
                         <p className="font-normal text-xl ">Quick Links</p>
-                        <p className="my-6">About Us</p>
-                        <p>Contact</p>
+                        <Link href={"/#about"} scroll={true}>
+                            <p className="my-6 cursor-pointer">About Us</p>
+                        </Link>
+                        <Link href={"/#contact"} scroll={true}>
+                            <p className='cursor-pointer'>Contact</p>
+                        </Link>
                     </div>
                 </div>
 

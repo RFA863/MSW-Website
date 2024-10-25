@@ -8,7 +8,7 @@ export default function Testimony() {
 
             <div className="font-lato-bold text-[#F4F4F5] text-4xl mb-16 ">Testimony From Our Clients</div>
 
-            <div className="flex w-[370px] xl:w-[840px] overflow-hidden motion-gradient">
+            <div className="flex w-[400px] md:w-[700px] lg:w-[840px] overflow-hidden motion-gradient">
 
                 <motion.div
                     initial={{ x: 0 }}
@@ -17,7 +17,7 @@ export default function Testimony() {
 
                     className="flex justify-center ">
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Wedding Event</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +29,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Cake Outing Event</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -41,7 +41,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Gender Reveal Party</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -53,7 +53,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Birthday Party</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -74,7 +74,7 @@ export default function Testimony() {
 
                     className="flex justify-center ">
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Wedding Event</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -86,7 +86,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Cake Outing Event</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -98,7 +98,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Gender Reveal Party</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -110,7 +110,7 @@ export default function Testimony() {
                         <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
                     </div>
 
-                    <div className="bg-[#FAFAFA] w-60 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
                         <p className="font-lato-regular my-2">Birthday Party</p>
                         <div className="font-inter text-xs my-6 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -44,34 +44,34 @@ export default function Headers({ setOpenSidebar }) {
                         <Logo className={`h-12 transition-colors duration-300 ${isScrolled ? "text-[#F472B6]" : "text-white"}`} />
                     </div>
 
-                    <div onClick={() => scrollToSection("about")} className="cursor-pointer group relative hidden xl:block">
+                    <div onClick={() => scrollToSection("about")} className="cursor-pointer group relative hidden lg:block">
                         <span className="group-hover:text-[#F472B6]  transition-all duration-300">About Us</span>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all duration-300 h-0.5 bg-[#F472B6] group-hover:w-full"></span>
                     </div>
 
-                    <div onClick={() => scrollToSection("gallery")} className="cursor-pointer group relative hidden xl:block">
+                    <div onClick={() => scrollToSection("gallery")} className="cursor-pointer group relative hidden lg:block">
                         <span className="group-hover:text-[#F472B6]  transition-all duration-300">Gallery</span>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all duration-300 h-0.5 bg-[#F472B6] group-hover:w-full"></span>
                     </div>
 
-                    <div onClick={() => scrollToSection("service")} className="cursor-pointer group relative hidden xl:block">
+                    <div onClick={() => scrollToSection("service")} className="cursor-pointer group relative hidden lg:block">
                         <span className="group-hover:text-[#F472B6]  transition-all duration-300">Services</span>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all duration-300 h-0.5 bg-[#F472B6] group-hover:w-full"></span>
                     </div>
 
-                    <div onClick={() => scrollToSection("client")} className="cursor-pointer group relative hidden xl:block">
+                    <div onClick={() => scrollToSection("client")} className="cursor-pointer group relative hidden lg:block">
                         <span className="group-hover:text-[#F472B6]  transition-all duration-300"> Clients</span>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all duration-300 h-0.5 bg-[#F472B6] group-hover:w-full"></span>
                     </div>
 
-                    <div onClick={() => scrollToSection("map")} className="cursor-pointer group relative hidden xl:block">
+                    <div onClick={() => scrollToSection("map")} className="cursor-pointer group relative hidden lg:block">
                         <span className="group-hover:text-[#F472B6]  transition-all duration-300">Map</span>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all duration-300 h-0.5 bg-[#F472B6] group-hover:w-full"></span>
                     </div>
 
                 </div>
 
-                <div className="hidden xl:block">
+                <div className="hidden lg:block">
                     <div className="flex items-center justify-end gap-x-10 ">
                         <div className="flex gap-x-4">
                             <FaYoutube className="transition-colors duration-300 hover:text-[#F472B6]" />
@@ -85,7 +85,7 @@ export default function Headers({ setOpenSidebar }) {
                 </div>
 
 
-                <FaBars className={`xl:hidden text-[40px] ${isScrolled ? "text-[#F472B6]" : "text-[#FAFAFA]"}`} onClick={() => setOpenSidebar(true)} />
+                <FaBars className={`lg:hidden text-[40px] ${isScrolled ? "text-[#F472B6]" : "text-[#FAFAFA]"}`} onClick={() => setOpenSidebar(true)} />
 
 
             </div>

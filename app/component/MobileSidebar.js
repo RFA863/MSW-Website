@@ -2,7 +2,7 @@
 "use client";
 
 import { Drawer, Sidebar } from "flowbite-react";
-import { FaYoutube, FaFacebookF, FaInstagram, FaBars } from "react-icons/fa";
+import { FaYoutube, FaFacebookF, FaInstagram, FaTimes } from "react-icons/fa";
 
 
 import Logo from "../../public/logo/Logo.svg"
@@ -37,7 +37,7 @@ export default function MobileSidebar({ openSidebar, setOpenSidebar }) {
         <>
 
             <Drawer open={openSidebar} onClose={handleClose} theme={customThemeDrawer}>
-                <Drawer.Header titleIcon={Logo} closeIcon={FaBars} />
+                <Drawer.Header titleIcon={Logo} closeIcon={FaTimes} />
 
                 <Drawer.Items>
                     <Sidebar

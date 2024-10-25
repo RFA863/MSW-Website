@@ -1,9 +1,9 @@
 
 export default function Contact() {
     return (
-        <div id="contact" className="mx-12 xl:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-between items-center flex-col xl:flex-row my-16 xl:my-0">
+        <div id="contact" className="mx-12 xl:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-center xl:justify-between items-center flex-col xl:flex-row my-16 xl:my-0">
             <div className="mx-0 xl:mx-10 basis-1/2">
-                <p className="font-inter text-base mb-8 text-justify ">
+                <p className="font-inter text-base  text-justify ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nam quis odio venenatis, tristique nisi eget, lobortis lectus.
                     Integer sollicitudin blandit est, in commodo turpis vestibulum et.
@@ -12,12 +12,12 @@ export default function Contact() {
                     tincidunt pulvinar sed id diam. Morbi in lectus non erat mattis
                     ornare a quis nulla. Praesent vitae facilisis felis.
                 </p>
-                <p className="font-lato-regular text-[32px]">
+                <p className="font-lato-regular text-[32px] my-8">
                     Contact Us!
                 </p>
             </div>
 
-            <div className="basis-1/2 mt-12">
+            <div className="basis-1/2 ">
                 <form>
                     <p className="font-lato-bold text-2xl">Name <span className="text-base">(required)</span></p>
 

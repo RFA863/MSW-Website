@@ -34,11 +34,11 @@ export default function Service() {
                     <Carousel theme={customTheme}>
                         <div >
                             <p className="font-lato-light text-base text-[#FAFAFA] mb-1 xl:mb-3">OUR SERVICES</p>
-                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Wedding Organizer</p>
+                            <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Wedding Organizer</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg1} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg2} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg3} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg1} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg2} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg3} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -52,11 +52,11 @@ export default function Service() {
                         <div>
                             <p className="font-lato-light text-base text-[#FAFAFA] mb-1 xl:mb-3">OUR SERVICES</p>
 
-                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Customized Decoration</p>
+                            <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Customized Decoration</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg4} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg5} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg6} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg4} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg5} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg6} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -70,11 +70,11 @@ export default function Service() {
                         <div>
                             <p className="font-lato-light text-base text-[#FAFAFA]mb-1 xl:mb-3">OUR SERVICES</p>
 
-                            <p className="font-lato-regular text-3xl md:text-5xl mb-6 xl:mb-14">Private Wedding</p>
+                            <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Private Wedding</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg7} alt="Service image" className="w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg8} alt="Service image" className="hidden md:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
-                                <Image src={ServiceImg9} alt="Service image" className="hidden lg:block w-[320px] md:w-[265px] md:h-[265px] md:object-cover " />
+                                <Image src={ServiceImg7} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg8} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={ServiceImg9} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

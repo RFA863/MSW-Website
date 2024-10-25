@@ -19,7 +19,7 @@ export default function About() {
                         Phasellus eget tortor vel leo congue luctus eu vel odio.
                     </p>
                 </div>
-                {/* className="basis-0 xl:basis-1/2" */}
+
                 <div className="basis-1/2">
                     <Image src={AboutImg} alt="about-image" className="mx-auto  md:w-[610px] h-[320px] object-scale-down md:object-cover" />
                 </div>

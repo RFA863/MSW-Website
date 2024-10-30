@@ -2,7 +2,7 @@
 "use client";
 
 import { Drawer, Sidebar } from "flowbite-react";
-import { FaYoutube, FaFacebookF, FaInstagram, FaTimes } from "react-icons/fa";
+import { FaInstagram, FaTimes } from "react-icons/fa";
 
 
 import Logo from "../../public/logo/Logo.svg"

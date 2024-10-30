@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
-import { FaYoutube, FaFacebookF, FaInstagram, FaBars } from "react-icons/fa";
+import { FaInstagram, FaBars } from "react-icons/fa";
 
 import Logo from "../../public/logo/Logo.svg"
 

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FaYoutube, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import Logo from "../../public/logo/Logo.svg"
 
 export default function Footer() {

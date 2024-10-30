@@ -9,18 +9,14 @@ export default function Contact() {
         lastName: "",
         emailBody: ""
     })
-
+    // Ready to turn your dream into reality? Our team at MSW is here to help you create an 
+    // unforgettable celebration. Reach out today to discuss your ideas, and let’s start planning every 
+    // beautiful detail together.
     return (
         <div id="contact" className="mx-12 md:mx-24 min-h-screen tracking-[.6px] text-[#27272A] flex justify-center xl:justify-between items-center flex-col xl:flex-row my-16 xl:my-0 ">
-            <div className="mx-0 xl:mx-10 basis-1/2">
-                <p className="font-inter text-base  text-justify ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nam quis odio venenatis, tristique nisi eget, lobortis lectus.
-                    Integer sollicitudin blandit est, in commodo turpis vestibulum et.
-                    Etiam dignissim metus id lorem egestas condimentum. Suspendisse
-                    lobortis tempor dolor id lobortis. Donec non tellus sed magna
-                    tincidunt pulvinar sed id diam. Morbi in lectus non erat mattis
-                    ornare a quis nulla. Praesent vitae facilisis felis.
+            <div className="ml-0 mr-0 xl:ml-10 xl:mr-16 basis-1/2">
+                <p className="font-inter text-base  text-justify font-light">
+                    Ready to turn your dream into reality? We are here to help! Reach us out and let’s make your special day as extraordinary as your love story.
                 </p>
                 <p className="font-lato-regular text-[32px] my-8">
                     Contact Us!

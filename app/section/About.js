@@ -11,12 +11,11 @@ export default function About() {
                 <div className="basis-1/2 text-black tracking-[.6px]" >
                     <p className="font-lato-light text-base">ABOUT US</p>
                     <p className="font-lato-regular text-[32px] my-3">Every Details Are Important</p>
-                    <p className="text-[#121212]/75">
-                        At MSW, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur nec pulvinar metus. Suspendisse potenti. Vestibulum in
-                        bibendum risus, euismod tincidunt neque. Proin vitae commodo odio.
-                        Nam dui est, interdum sed vehicula at, convallis vel nulla.
-                        Phasellus eget tortor vel leo congue luctus eu vel odio.
+                    <p className="text-[#121212]/75 font-inter font-light">
+                        With MSW, we know that every detail counts in creating the wedding of your dreams.
+                        Our experienced team handles each aspect with precision and passion, ensuring every
+                        moment reflects your unique love story. From grand designs to personal touches,
+                        we’re dedicated to making your big day unforgettable, down to the last detail.
                     </p>
                 </div>
 

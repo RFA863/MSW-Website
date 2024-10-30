@@ -28,7 +28,7 @@ export default function Map() {
                     style={{ border: 0 }}  // Properti style harus berupa objek JavaScript
                     allowFullScreen={true}
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerPolicy="no-referrer-when-downgrade">
 
                 </iframe>
             </div>

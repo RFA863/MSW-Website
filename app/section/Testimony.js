@@ -8,9 +8,21 @@ export default function Testimony() {
 
             <div className="font-lato-bold text-[#F4F4F5] text-4xl mb-16 ">Testimony From Our Clients</div>
 
-            <div className="flex w-[400px] md:w-[700px] lg:w-[840px] overflow-hidden motion-gradient">
+            <div className="flex w-[400px] md:w-[700px] lg:w-[840px] overflow-hidden motion-gradient justify-center">
 
-                <motion.div
+                <div className="bg-[#FAFAFA] w-60 h-80 rounded-3xl text-[#27272A] p-5  mx-12">
+                    <p className="font-lato-regular my-2">Wedding Event</p>
+                    <div className="font-inter text-xs my-6 ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam quis odio venenatis, tristique nisi eget, lobortis lectus.
+                        Integer sollicitudin blandit est, in commodo turpis vestibulum et.
+                        Etiam dignissim metus id lorem egestas condimentum. Suspendisse
+                        lobortis tempor dolor id lobortis.
+                    </div>
+                    <div className="font-lato-regular text-xs my-2 bg-[#E4E4E7] py-2 rounded-3xl">John Doe</div>
+                </div>
+
+                {/* <motion.div
                     initial={{ x: 0 }}
                     animate={{ x: "-100%" }}
                     transition={{ duration: 50, repeat: Infinity, ease: "linear" }}
@@ -123,7 +135,7 @@ export default function Testimony() {
                     </div>
 
 
-                </motion.div>
+                </motion.div> */}
 
             </div>
 

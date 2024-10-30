@@ -19,7 +19,7 @@ export default function Footer() {
                             Ohio 4421
                         </p>
                         <p className="mb-1">Phone Number:</p>
-                        <p className="mb-6">+1 - 999 - 888 - 777</p>
+                        <p className="mb-6">+1 - 216 - 548 - 0771</p>
                         <p className="mb-1">Working Hours:</p>
                         <p>
                             Monday - Friday <br />
@@ -41,12 +41,12 @@ export default function Footer() {
             </div>
 
             <div className="flex  gap-x-4 justify-center items-center my-14 text-2xl">
-                <FaYoutube />
-                <FaFacebookF />
-                <FaInstagram />
+                <a href='https://instagram.com/murtinishirleywilliam' target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+                </a>
             </div>
 
-            <div className="font-lato-regular text-[8px] text-center">© 2024. MSW Event Planner & Decor. All Rights Reserved</div>
+            <div className="font-lato-regular text-[8px] text-center ">© 2024. MSW Event Planner & Decor. All Rights Reserved</div>
         </div>
     )
 }

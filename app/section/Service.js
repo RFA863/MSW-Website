@@ -4,15 +4,16 @@ import Image from "next/image";
 import { Carousel } from "flowbite-react";
 
 import BgService from "../../public/background/Bg-service.png"
-import ServiceImg1 from "../../public/image/Service-img1.png"
-import ServiceImg2 from "../../public/image/Service-img2.png"
-import ServiceImg3 from "../../public/image/Service-img3.png"
-import ServiceImg4 from "../../public/image/Service-img4.png"
-import ServiceImg5 from "../../public/image/Service-img5.png"
-import ServiceImg6 from "../../public/image/Service-img6.png"
-import ServiceImg7 from "../../public/image/Service-img7.png"
-import ServiceImg8 from "../../public/image/Service-img8.png"
-import ServiceImg9 from "../../public/image/Service-img9.png"
+
+import EventWedding1 from "../../public/image/Event-wedding-1.png"
+import EventWedding2 from "../../public/image/Event-wedding-2.png"
+import EventWedding3 from "../../public/image/Event-wedding-3.png"
+import EventPrivat1 from "../../public/image/Event-private-1.png"
+import EventPrivat2 from "../../public/image/Event-private-2.png"
+import EventPrivat3 from "../../public/image/Event-private-3.png"
+import EventDecor1 from "../../public/image/Event-decor-1.png"
+import EventDecor2 from "../../public/image/Event-decor-2.png"
+import EventDecor3 from "../../public/image/Event-decor-3.png"
 
 export default function Service() {
 
@@ -36,16 +37,12 @@ export default function Service() {
                             <p className="font-lato-light text-base text-[#FAFAFA] mb-1 xl:mb-3">OUR SERVICES</p>
                             <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Wedding Organizer</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg1} alt="Service image" className="w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg2} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg3} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventWedding1} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={EventWedding2} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventWedding3} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
+                                Let us bring your dream wedding to life with flawless planning and attention to every detail. From intimate gatherings to grand celebrations, we handle all logistics, so you can focus on enjoying each moment. Let’s make your love story unforgettable with a seamless, stress-free wedding day.
                             </p>
                         </div>
 
@@ -54,16 +51,12 @@ export default function Service() {
 
                             <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Customized Decoration</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg4} alt="Service image" className="w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg5} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg6} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventDecor1} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={EventDecor2} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventDecor3} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
+                                Your wedding decor should be as unique as your love story. We specialize in crafting custom decorations that capture your vision and personality, blending beauty with creativity to transform any venue. Let’s design a setting that reflects your essence and leaves a lasting impression on everyone.
                             </p>
                         </div>
 
@@ -72,16 +65,12 @@ export default function Service() {
 
                             <p className="font-lato-regular text-2xl md:text-5xl mb-6 xl:mb-14">Private Wedding</p>
                             <div className="flex justify-center gap-x-4">
-                                <Image src={ServiceImg7} alt="Service image" className="w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg8} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
-                                <Image src={ServiceImg9} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventPrivat1} alt="Service image" className="w-[265px] h-[265px] object-cover " />
+                                <Image src={EventPrivat2} alt="Service image" className="hidden md:block w-[265px] h-[265px] object-cover " />
+                                <Image src={EventPrivat3} alt="Service image" className="hidden lg:block w-[265px] h-[265px] object-cover " />
                             </div>
                             <p className="font-inter text-xs md:text-sm mt-6 xl:mt-16">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec vulputate accumsan odio quis congue. Cras sed urna nec
-                                velit posuere laoreet quis vitae magna. Donec aliquet tristique
-                                turpis quis euismod. Vestibulum nec eros sed metus mollis aliquam
-                                nec at diam. Phasellus ac mauris commodo, rutrum ante ac, ultricies velit.
+                                Intimacy and elegance come together in our private wedding packages, designed for couples who cherish the beauty of small gatherings. Surrounded by your closest loved ones, enjoy a bespoke celebration that’s filled with warmth, authenticity, and personal touches. Make your special day truly yours.
                             </p>
                         </div>
 

@@ -81,13 +81,8 @@ export default function MobileSidebar({ openSidebar, setOpenSidebar }) {
 
                                     <Sidebar.ItemGroup>
                                         <div className="flex">
-                                            <Sidebar.Item href="https://github.com/themesberg/flowbite-react/" icon={FaYoutube}>
 
-                                            </Sidebar.Item>
-                                            <Sidebar.Item href="https://flowbite-react.com/" icon={FaFacebookF}>
-
-                                            </Sidebar.Item>
-                                            <Sidebar.Item href="https://github.com/themesberg/flowbite-react/issues" icon={FaInstagram}>
+                                            <Sidebar.Item href="https://instagram.com/murtinishirleywilliam" target="_blank" rel="noopener noreferrer" icon={FaInstagram}>
 
                                             </Sidebar.Item>
                                         </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaPhone } from "react-icons/fa";
 import Logo from "../../public/logo/Logo.svg"
 
 export default function Footer() {
@@ -19,7 +19,7 @@ export default function Footer() {
                             Ohio 4421
                         </p>
                         <p className="mb-1">Phone Number:</p>
-                        <p className="mb-6">+1 - 216 - 548 - 0771</p>
+                        <p className="mb-6"><a href='tel:+12165480771'>+1 - 216 - 548 - 0771</a></p>
                         <p className="mb-1">Working Hours:</p>
                         <p>
                             Monday - Friday <br />
@@ -43,6 +43,10 @@ export default function Footer() {
             <div className="flex  gap-x-4 justify-center items-center my-14 text-2xl">
                 <a href='https://instagram.com/murtinishirleywilliam' target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
+                </a>
+
+                <a href='tel:+12165480771' target="_blank" rel="noopener noreferrer">
+                    <FaPhone />
                 </a>
             </div>
 

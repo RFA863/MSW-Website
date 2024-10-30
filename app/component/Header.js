@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
-import { FaInstagram, FaBars } from "react-icons/fa";
+import { FaInstagram, FaPhone, FaBars } from "react-icons/fa";
 
 import Logo from "../../public/logo/Logo.svg"
 
@@ -76,6 +76,10 @@ export default function Headers({ setOpenSidebar }) {
                         <div className="flex gap-x-4">
                             <a href='https://instagram.com/murtinishirleywilliam' target="_blank" rel="noopener noreferrer">
                                 <FaInstagram className="transition-colors duration-300 hover:text-[#F472B6]" />
+                            </a>
+
+                            <a href='tel:+12165480771' target="_blank" rel="noopener noreferrer">
+                                <FaPhone className="transition-colors duration-300 hover:text-[#F472B6]" />
                             </a>
                         </div>
                         <div className={`px-8 py-3 rounded-lg transition-colors duration-300 hover:text-[#F472B6] hover:ring-2 hover:ring-[#F472B6] ${isScrolled ? "bg-[#F472B6] text-white  hover:bg-transparent" : "bg-transparent text-white ring-2 ring-white  "}`} onClick={() => scrollToSection("contact")}>
